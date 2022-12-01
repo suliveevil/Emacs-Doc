@@ -3371,11 +3371,11 @@ columns aside from the @samp{ind} column.
 
 @item transpose
 When @samp{y}, @samp{yes}, or @samp{t} attempt to transpose the table data before
-plotting.  Also recognises the shorthand option @samp{trans}.
+plotting.  Also recognizes the shorthand option @samp{trans}.
 
 @item @samp{type}
 Specify the type of the plot, by default one of  @samp{2d}, @samp{3d}, @samp{radar}, or @samp{grid}.
-Available types can be customised with @code{org-plot/preset-plot-types}.
+Available types can be customized with @code{org-plot/preset-plot-types}.
 
 @item @samp{with}
 Specify a @samp{with} option to be inserted for every column being
@@ -7130,7 +7130,7 @@ special repeaters @samp{++} and @samp{.+}.  For example:
    Marking this DONE shifts the date to one month after today.
 
 ** TODO Wash my hands
-   DEADLINE: <2019-04-05 08:00 Sun .+1h>
+   DEADLINE: <2019-04-05 08:00 Fri .+1h>
    Marking this DONE shifts the date to exactly one hour from now.
 @end example
 
@@ -9241,10 +9241,8 @@ the entry.
 Search for a regular expression in all agenda files and additionally
 in the files listed in @code{org-agenda-text-search-extra-files}.  This
 uses the Emacs command @code{multi-occur}.  A prefix argument can be used
-to specify the number of context lines for each match, default is
-@enumerate
-@item
-@end enumerate
+to specify the number of context lines for each match, the default
+is 1.
 
 @item @kbd{#}
 Create a list of stuck projects (see @ref{Stuck projects}).
@@ -13191,7 +13189,7 @@ property mandatory because @samp{\againframe} needs frame to resume.
 When @samp{ignoreheading} is set, Org export ignores the entry's headline
 but not its content.  This is useful for inserting content between
 frames.  It is also useful for properly closing a @samp{column}
-environment.  @@end itemize
+environment.
 
 @cindex @samp{BEAMER_ACT}, property
 @cindex @samp{BEAMER_OPT}, property
